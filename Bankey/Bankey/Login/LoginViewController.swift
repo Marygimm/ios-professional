@@ -53,6 +53,9 @@ class LoginViewController: UIViewController {
     override func viewDidDisappear(_ animated: Bool) {
         super.viewDidDisappear(animated)
         signInButton.configuration?.showsActivityIndicator = false
+        loginView.usernameTextField.text = nil
+        loginView.passwordTextField.text = nil
+        
     }
     
     override func viewDidAppear(_ animated: Bool) {

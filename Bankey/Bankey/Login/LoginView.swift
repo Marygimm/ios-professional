@@ -30,6 +30,8 @@ class LoginView: UIView {
         return CGSize(width: UIView.noIntrinsicMetric, height: UIView.noIntrinsicMetric)
     }
     
+    
+    
 }
 
 extension LoginView {
