@@ -234,7 +234,7 @@ extension AccountSummaryViewController {
 // MARK: Actions
 extension AccountSummaryViewController {
     @objc func logoutTapped(sender: UIButton) {
-//        NotificationCenter.default.post(name: .logout, object: nil)
+        NotificationCenter.default.post(name: .logout, object: nil)
     }
     
     @objc func refreshContent() {
