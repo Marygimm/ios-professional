@@ -33,6 +33,9 @@
 		57E118A62914102D00A13BD4 /* CurrencyFormatterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E118A52914102D00A13BD4 /* CurrencyFormatterTests.swift */; };
 		57E118A8291415CF00A13BD4 /* NSNotificationName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E118A7291415CF00A13BD4 /* NSNotificationName.swift */; };
 		57E118AA29141E0500A13BD4 /* UITextField+SecureToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E118A929141E0500A13BD4 /* UITextField+SecureToggle.swift */; };
+		57E118AE2915219200A13BD4 /* ProfileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E118AD2915219200A13BD4 /* ProfileTests.swift */; };
+		57E118B0291521A800A13BD4 /* AccountTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E118AF291521A800A13BD4 /* AccountTests.swift */; };
+		57E118B2291521BD00A13BD4 /* AccountSummaryViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E118B1291521BD00A13BD4 /* AccountSummaryViewControllerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +78,9 @@
 		57E118A52914102D00A13BD4 /* CurrencyFormatterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyFormatterTests.swift; sourceTree = "<group>"; };
 		57E118A7291415CF00A13BD4 /* NSNotificationName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSNotificationName.swift; sourceTree = "<group>"; };
 		57E118A929141E0500A13BD4 /* UITextField+SecureToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+SecureToggle.swift"; sourceTree = "<group>"; };
+		57E118AD2915219200A13BD4 /* ProfileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTests.swift; sourceTree = "<group>"; };
+		57E118AF291521A800A13BD4 /* AccountTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountTests.swift; sourceTree = "<group>"; };
+		57E118B1291521BD00A13BD4 /* AccountSummaryViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSummaryViewControllerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -221,9 +227,28 @@
 		57E1189C29140F9A00A13BD4 /* BankeyUnitTests */ = {
 			isa = PBXGroup;
 			children = (
-				57E118A52914102D00A13BD4 /* CurrencyFormatterTests.swift */,
+				57E118AC2915218300A13BD4 /* AccountSummary */,
+				57E118AB2915217800A13BD4 /* Utils */,
 			);
 			path = BankeyUnitTests;
+			sourceTree = "<group>";
+		};
+		57E118AB2915217800A13BD4 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				57E118A52914102D00A13BD4 /* CurrencyFormatterTests.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		57E118AC2915218300A13BD4 /* AccountSummary */ = {
+			isa = PBXGroup;
+			children = (
+				57E118AD2915219200A13BD4 /* ProfileTests.swift */,
+				57E118AF291521A800A13BD4 /* AccountTests.swift */,
+				57E118B1291521BD00A13BD4 /* AccountSummaryViewControllerTests.swift */,
+			);
+			path = AccountSummary;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -358,6 +383,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				57E118A62914102D00A13BD4 /* CurrencyFormatterTests.swift in Sources */,
+				57E118B0291521A800A13BD4 /* AccountTests.swift in Sources */,
+				57E118AE2915219200A13BD4 /* ProfileTests.swift in Sources */,
+				57E118B2291521BD00A13BD4 /* AccountSummaryViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
