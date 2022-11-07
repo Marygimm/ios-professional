@@ -181,10 +181,10 @@
 		57652CD32913D2F600DAE7F5 /* AccountSummary */ = {
 			isa = PBXGroup;
 			children = (
+				57652CED2913E49500DAE7F5 /* AccountSummaryViewController+Networking.swift */,
 				57652CD42913D31100DAE7F5 /* AccountSummaryViewController.swift */,
 				57652CDB2913DC1500DAE7F5 /* Cell */,
 				57652CDA2913D5CC00DAE7F5 /* Header */,
-				57652CED2913E49500DAE7F5 /* AccountSummaryViewController+Networking.swift */,
 			);
 			path = AccountSummary;
 			sourceTree = "<group>";

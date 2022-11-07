@@ -58,6 +58,7 @@ extension AccountSummaryCell {
         typeLabel.font = UIFont.preferredFont(forTextStyle: .caption1)
         typeLabel.adjustsFontForContentSizeCategory = true
         typeLabel.text = "Account type"
+        typeLabel.isShimmering = true
         
         underlineView.translatesAutoresizingMaskIntoConstraints = false
         underlineView.backgroundColor = appColor
