@@ -17,6 +17,10 @@ class PasswordStatusView: UIView {
     let lowerCaseCriteriaView = PasswordCriteriaView(text: "lowercase (a-z)")
     let digitCriteriaView = PasswordCriteriaView(text: "digit (0-9)")
     let specialCharacterCriteriaView = PasswordCriteriaView(text: "special character (e.g. !@#$%^)")
+    let specialCharacterCriteriaView2 = PasswordCriteriaView(text: "special character (e.g. !@#$%^)")
+    let specialCharacterCriteriaView3 = PasswordCriteriaView(text: "special character (e.g. !@#$%^)")
+
+
 
     // Used to determine if we reset criteria back to empty state (⚪️).
     var shouldResetCriteria: Bool = true
@@ -66,6 +70,9 @@ extension PasswordStatusView {
         stackView.addArrangedSubview(lowerCaseCriteriaView)
         stackView.addArrangedSubview(digitCriteriaView)
         stackView.addArrangedSubview(specialCharacterCriteriaView)
+        stackView.addArrangedSubview(specialCharacterCriteriaView2)
+        stackView.addArrangedSubview(specialCharacterCriteriaView3)
+
         
         addSubview(stackView)
         
